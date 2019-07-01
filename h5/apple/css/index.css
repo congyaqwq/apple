@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+}
+.container{
+	width: 1349px;
+	margin: auto;
+}
+
+/*最顶部广告栏*/
+.advertise{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #444;
+	color: #a8a8aa;
+	font-size: 12px;
+	margin: auto;
+	line-height: 40px;
+	text-align: right;
+	z-index: 100;
+}
+.advertise span{
+	margin-right: 186px;
+}
+/*导航条*/
+.nav{
+	position: fixed;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	height: 44px;
+	background-color: rgba(45,45,45,0.98);
+	margin: auto;
+	padding: 0px 186px;
+	line-height: 40px;
+	z-index: 100;
+}
+.nav nav a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 100;
+	margin-right: 85px;
+}
+.nav nav a i{
+	font-size: 1.5em;
+}
+.block-container{
+	position: relative;
+	width: 100%;
+	background-color: #FAFAFA;
+	padding: 20px 0px 45px;
+	margin-bottom: 10px;
+}
+/*块的宽度设置*/
+.iphone-xr-price,.iphone-xr,.iphone-xs,.mac-pro{
+	position: relative;
+	width: 90%;
+	margin: 20px auto 15px;
+	text-align: center;
+}
+/*第一块单独设置margin-top*/
+.iphone-xr-price{
+	margin: 120px auto 15px;
+}
+/*第一块标题单独设置*/
+.iphone-xr-price span{
+	border: 1px solid #888;
+	border-radius: 8px;
+	color: #777;
+	padding: 8px 15px;
+}
+/*第一块单独设置*/
+.iphone-xr-price p{
+	font-size: 32px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+/*描述*/
+.iphone-xr-price h3,.iphone-xr h3,.iphone-xs h3,.mac-pro h3,.ios-13 h3,.ipad-os h3,.mac-os h3,.watch-os h3,.display-pro h3,.wwdc h3{
+	font-size: 19px;
+	font-weight: 400;
+	max-width: 28em;
+	margin: 15px auto;
+}
+/*购买以及进一步了解*/
+.iphone-xr-price ul a,.iphone-xr ul a,.iphone-xs ul a,.mac-pro ul a,.ios-13 ul a,.ipad-os ul a,.mac-os ul a,.watch-os ul a,.display-pro ul a,.wwdc ul a{
+	text-decoration: none;
+	color: #0070c9;
+	font-size: 19px;
+	margin-left: 18px;
+}
+/*文字距离图片的距离*/
+.iphone-xr-price ul,.iphone-xr ul,.iphone-xs ul,.mac-pro ul,.mac-pro ul,.ipad-os ul,.mac-os ul,.watch-os ul,.display-pro ul,wwdc ul{
+	margin-bottom: 18px;
+}
+/*标题字体样式设置*/
+.iphone-xr span,.iphone-xs span,.mac-pro span,.mac-pro span,.ios-13 span,.ipad-os span,.mac-os span,.watch-os span,.display-pro span,.wwdc span{
+	font-weight: 700;
+	font-size: 50px;
+}
+/*设置标题边框的最后一个字母*/
+.iphone-xr span a,.iphone-xs span a{
+	position: relative;
+	top: -10px;
+	right: 5px;
+	font-size: 23px;
+	border: 3px solid #111;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+/*mac-pro设置*/
+.mac-pro{
+	/*position: relative;*/
+	/*padding-bottom: 0px;*/
+	z-index: 1;
+}
+.last{
+	width: 1349px;
+	height: 580px;
+	background-image: url(../images/MacPro.jpg);
+	background-position: -600px -30px;
+/*	margin-left: -600px;
+	margin-top: -270px;*/
+}
+.container .last{
+	padding-bottom: 0;
+}
+
+/*其他产品*/
+.oth-product-left{
+	width: 656px;
+	height: 580px;
+	float: left;
+	margin-left: 20px;
+	background-image: url(../images/背景大图.jpg);
+	background-position: -303px -2px;
+}
+/*ipad-os*/
+.oth-product-right{
+	width: 656px;
+	height: 580px;
+	float: right;
+	background-image: url(../images/ipad-os.jpg);
+	background-position: -300px -30px;
+}
+/*其他设备的额外设置*/
+.ipad-os,.ios-13,.mac-os,.watch-os,.display-pro,.wwdc{
+	text-align: center;
+	padding-top: 40px;
+}
+.ipad-os h3,.ios-13 h3,.mac-os h3,.watch-os h3,.display-pro h3,.wwdc h3{
+	margin: 5px auto 10px;
+}
+.ipad-os ul a,.ios-13 ul a,.mac-os ul a,.watch-os ul a,.display-pro ul a,.wwdc ul a{
+	font-size: 15px;
+}
+.ipad-os span,.ios-13 span,.mac-os span,.watch-os span,.display-pro span,.wwdc span{
+	font-size: 40px;
+}
+/*ios13单独设置*/
+.ios-13 span,.ios-13 h3,.wwdc span,.wwdc h3,.wwdc a{
+	color: #eee;
+}
+.container .second .oth-second-left .mac-os span a{
+	font-family: "微软雅黑";
+	font-weight: lighter;
+}
+/*其他  第二排*/
+.oth-second-left,.oth-second-right{
+	width: 656px;
+	height: 580px;
+	background-color: #FAFAFA;
+}
+.oth-second-left{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	background-image: url(../images/macos.jpg);
+	background-position: -300px -30px;
+}
+.oth-second-right{
+	float: right;
+	margin-top: 10px;
+	/*background-image: url(../images/watch-os.jpg);*/
+	/*background-position: -300px -30px;*/
+}
+/*第三排*/
+.oth-third-left{
+	width: 656px;
+	height: 580px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	background-image: url(../images/display-pro.jpg);
+	background-position: -300px -30px;
+}
+.oth-third-right{
+	width: 656px;
+	height: 580px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-image: url(../images/机器人.png);
+	background-position: -300px 0px;
+	box-sizing: border-box;
+}
+/*疑问，为何不可以清除浮动*/
+/*.third::after{
+	clear: both;
+}*/
+.forth{
+	position: relative;
+	top: 20px;
+	width: 100%;
+	background-color: #F2F2F2;
+	clear: both;
+	/*margin-top: 1200px;*/
+}
+.footer{
+	width: 72%;
+	font-size: 11px;
+	color: #777;
+	margin: auto;
+	padding: 20px;
+	/*text-align: center;*/
+}
+.footer p a{
+	color: #0070c9;
+}
+/*尾部导航条*/
+.footer-nav{
+	width: 100%;
+	margin: 20px auto 10px;
+	border-top: 1px solid #ddd;
+}
+.footer-nav p{
+	margin-top: 20px;
+}
+.footer-nav .item-block{
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: top;
+	margin:0 75px 0 0;
+}
+.footer-nav .item-block ul li{
+	list-style-type: none;
+	margin: 10px;
+}
+.footer-nav .item-block ul .header{
+	color: #111;
+	font-weight: bolder;
+}
+
+
+.copy{
+	border-top:1px solid #ddd;
+	padding-top: 10px;
+}
+.copy span{
+	margin-right: 50px;
+}
+.copy p{
+	margin-top: 10px;
+}
+.copy ul li,.copy ul{
+	display:inline;
+	margin: auto 5px;
+}
